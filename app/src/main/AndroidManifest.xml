@@ -13,6 +13,12 @@
         android:theme="@style/Theme.CalmSphereApp"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
+=======
+            android:name=".RegisterPage"
+            android:exported="false" />
+        <activity
+>>>>>>> 54fd8f2 (new files)
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,9 +27,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+=======
+>>>>>>> 54fd8f2 (new files)
     </application>
 
 </manifest>

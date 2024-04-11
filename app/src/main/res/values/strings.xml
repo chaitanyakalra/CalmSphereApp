@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">CalmSphereApp</string>
+<<<<<<< HEAD
     <string name="calm_sphere">C A L M S P H E R E</string>
     <string name="calm_sphere1">"Making Every Soul Smile"</string>
+=======
+>>>>>>> 54fd8f2 (new files)
 </resources>

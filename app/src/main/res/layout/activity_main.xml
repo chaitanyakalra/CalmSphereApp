@@ -6,9 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#9b97ed"
+    android:background="@drawable/gradient1"
+
 
     >
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -16,42 +18,48 @@
         android:layout_height="448dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintHorizontal_bias="0.821"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247"
+        app:layout_constraintVertical_bias="0.201"
         app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView2"
+        font
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="  C A L M S P H E R E"
+        android:fontFamily="@font/julius_sans_one"
+        android:shadowColor="#555555"
+        android:shadowDx="3.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="2.0"
+        android:text="@string/calm_sphere"
         android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.628"
-        android:textStyle="bold"
-        android:shadowColor="#555555"
-        android:shadowDx="5.0"
-        android:shadowDy="5.0"
-        android:shadowRadius="3.0"
-        />
+        app:layout_constraintVertical_bias="0.618" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="&quot;Making Every Soul Smile&quot;"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="502dp"
+        android:fontFamily="@font/basic"
         android:shadowColor="#555555"
-        android:shadowDx="5.0"
-        android:shadowDy="5.0"
-        android:shadowRadius="3.0"/>
+        android:shadowDx="2.5"
+        android:shadowDy="2.5"
+        android:shadowRadius="1.5"
+        android:text="@string/calm_sphere1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,18 +1,5 @@
 <resources>
     <string name="app_name">CalmSphereApp</string>
-
     <string name="calm_sphere">C A L M S P H E R E</string>
     <string name="calm_sphere1">"Making Every Soul Smile"</string>
-    <string name="welcome_to_calmsphere">Welcome to CalmSphere</string>
-    <string name="making_every_soul_smile">MAKING EVERY SOUL SMILE</string>
-    <string name="password">Password</string>
-    <string name="name">Name</string>
-    <string name="email">Email</string>
-    <string name="register">Register</string>
-    <string name="forgot_password">Forgot Password?</string>
-    <string name="don_t_have_account">Don\'t have account?</string>
-    <string name="create_now">Create Now</string>
-    <string name="or">or</string>
-    =======
->>>>>>> 54fd8f2 (new files)
 </resources>

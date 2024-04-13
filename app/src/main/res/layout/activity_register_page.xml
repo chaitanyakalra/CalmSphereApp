@@ -5,11 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@drawable/gradient1"
+=======
+>>>>>>> origin/master
     tools:context=".RegisterPage">
 
     <ImageView
         android:id="@+id/imageView"
+<<<<<<< HEAD
         android:layout_width="197dp"
         android:layout_height="170dp"
         android:layout_marginTop="16dp"
@@ -17,11 +21,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+=======
+        android:layout_width="113dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_white" />
+>>>>>>> origin/master
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="190dp"
         android:layout_height="30dp"
+<<<<<<< HEAD
         android:text="@string/making_every_soul_smile"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,16 +58,45 @@
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.31" />
+=======
+        android:text="MAKING EVERY SOUL SMILE"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="381dp"
+        android:layout_height="37dp"
+        android:text="Welcome to CalmSphere"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+>>>>>>> origin/master
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="352dp"
         android:layout_height="45dp"
+<<<<<<< HEAD
         android:background="@color/white"
         android:ems="10"
         android:hint="Name"
         android:inputType="text"
         android:paddingLeft="4dp"
+=======
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+>>>>>>> origin/master
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
@@ -63,6 +106,7 @@
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="352dp"
         android:layout_height="45dp"
+<<<<<<< HEAD
         android:layout_marginTop="10dp"
         android:background="@color/white"
         android:ems="10"
@@ -75,16 +119,31 @@
         app:layout_constraintStart_toStartOf="@+id/editTextText"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.618" />
+=======
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+>>>>>>> origin/master
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="352dp"
         android:layout_height="45dp"
+<<<<<<< HEAD
         android:background="@color/white"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         android:paddingLeft="10dp"
+=======
+        android:ems="10"
+        android:inputType="textPassword"
+>>>>>>> origin/master
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
         app:layout_constraintHorizontal_bias="0.0"
@@ -96,16 +155,24 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="@string/register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
         app:layout_constraintHorizontal_bias="0.427"
+=======
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintHorizontal_bias="0.495"
+>>>>>>> origin/master
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.857" />
 
     <TextView
         android:id="@+id/textView3"
+<<<<<<< HEAD
         android:layout_width="72dp"
         android:layout_height="29dp"
         android:text="@string/name"
@@ -168,4 +235,27 @@
         app:layout_constraintVertical_bias="0.975"
         app:srcCompat="@drawable/SignInGoogle" />
 
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="498dp" />
+>>>>>>> origin/master
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,4 +2,8 @@
     <string name="app_name">CalmSphereApp</string>
     <string name="calm_sphere">C A L M S P H E R E</string>
     <string name="calm_sphere1">"Making Every Soul Smile"</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">or</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_now">Create now</string>
 </resources>
